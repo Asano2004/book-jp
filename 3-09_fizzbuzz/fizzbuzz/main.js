@@ -8,6 +8,13 @@ function fizzbuzz(num) {
     } else if (num % 5 === 0) {
         return 'Buzz!'
     } else {
-        return 'num';
+        return num;
     }
+}
+
+
+let i = 1;
+while (i <= 10000) {
+    console.log(fizzbuzz(i));
+    i += 1;
 }
